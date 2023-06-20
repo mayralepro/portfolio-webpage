@@ -10,6 +10,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Mayra Lepró</title>
   </head>
   <body>
@@ -19,7 +26,7 @@
       <h3>Frontend Developer</h3>
       <p class="about-me">
         Interested in the entire frontend spectrum and working on ambitious
-        projects. Professional musician, gamer, boxer and a coder.
+        projects. Professional musician, gamer, and coder.
       </p>
     </div>
     <!-- Skills-->
@@ -41,6 +48,7 @@
     <!-- Projects -->
     <div class="projects">
       <p>Projects</p>
+
       <!-- Diseño de Tejidos -->
       <div class="container">
         <img
@@ -49,57 +57,117 @@
           class="image"
         />
         <div class="overlay">
-          <a href="" class="icon">
-            <i class="fa fa-github"></i>
+          <a
+            href="https://disenodetejidos.netlify.app/"
+            target="_blank"
+            class="globe icon"
+          >
             <i class="fa fa-globe"></i>
           </a>
         </div>
       </div>
+
       <!-- Gym Workout -->
       <div class="container">
-        <img src="./img/projects/gymworkout.jpg" alt="Gym Workout Generator" />
+        <img
+          src="./img/projects/gymworkout.jpg"
+          alt="Gym Workout"
+          class="image"
+        />
         <div class="overlay">
-          <a href="" class="icon">
-            <i class="fa fa-github"></i>
+          <a
+            href="https://gym-ml.netlify.app/index.html/"
+            target="_blank"
+            class="globe icon"
+          >
             <i class="fa fa-globe"></i>
           </a>
         </div>
       </div>
+
       <!-- GenSphere -->
       <div class="container">
-        <img src="./img/projects/gensphere.jpg" alt="GenSphere Website" />
+        <img
+          src="./img/projects/gensphere.jpg"
+          alt="GenSphere Workout"
+          class="image"
+        />
         <div class="overlay">
-          <a href="" class="icon">
-            <i class="fa fa-github"></i>
+          <a
+            href="https://gensphere-developer.netlify.app/sections/login.html/"
+            target="_blank"
+            class="globe icon"
+          >
             <i class="fa fa-globe"></i>
           </a>
         </div>
       </div>
+
       <!-- Basketball Scoreboard -->
       <div class="container">
         <img
           src="./img/projects/basketballscoreboard.jpg"
-          alt="Basketball Scoreboard"
+          alt="GenSphere Workout"
+          class="image"
         />
         <div class="overlay">
-          <a href="" class="icon">
-            <i class="fa fa-github"></i>
+          <a
+            href="https://basketball-scoreboard-ml.netlify.app/"
+            target="_blank"
+            class="globe icon"
+          >
             <i class="fa fa-globe"></i>
           </a>
         </div>
       </div>
+
       <!-- Password Generator -->
       <div class="container">
         <img src="./img/projects/password.jpg" alt="Password Generator" />
         <div class="overlay">
-          <a href="" class="icon">
-            <i class="fa fa-github"></i>
+          <a
+            href="https://password-ml.netlify.app/"
+            target="_blank"
+            class="icon"
+          >
             <i class="fa fa-globe"></i>
           </a>
         </div>
       </div>
     </div>
 
+    <!-- Contact -->
+
+    <div class="contact">
+      <p class="skills">Contact</p>
+      <p class="contact-message">Got a project or just want to say hi? Feel free to send me a message!</p>
+      <form>
+        <input
+          name="name"
+          type="text"
+          class="feedback-input"
+          placeholder="Name"
+        />
+        <input
+          name="email"
+          type="text"
+          class="feedback-input"
+          placeholder="Email"
+        />
+        <input
+        name="subject"
+        type="text"
+        class="feedback-input"
+        placeholder="Subject"
+      />
+        <textarea
+          name="text"
+          class="feedback-input"
+          placeholder="Hi Mayra.."
+        ></textarea>
+        <input type="submit" value="SUBMIT" />
+      </form>
+    </div>
     <script src="./js/main.js"></script>
   </body>
 </html>
