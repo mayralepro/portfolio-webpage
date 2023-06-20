@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --nav: #11001c;
+  --purple: #3a015c;
+  --magenta: #4f0147;
+  --brown: #35012c;
+  --dark: #290025;
+  --font: #eeeeee;
+}
+
+/* Header */
+
+.header-custom {
+  color: var(--font);
+  padding: 35px;
+  position: relative;
+}
+
+.header-custom::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("/img/mayra-mobile.jpg");
+  opacity: 1;
+  z-index: -1;
+}
+
+.header-custom::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--magenta);
+  opacity: 0.5;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  background-color: transparent;
+}
+
+.about-me {
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Skills */
+
+.skills {
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  background-color: var(--brown);
+  color: #eeeeee;
+}
+
+.icons {
+  padding-top: 25px;
+}
+
+.icons img {
+  width: 80px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.icons img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* Projects */
+
+.projects {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  text-align: center;
+  background-color: var(--dark);
+  color: #eeeeee;
+  position: relative;
+}
+
+.projects .container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Projects Images */
+
+.projects img {
+  width: 350px;
+  padding: 20px;
+  transition: filter 0.3s ease-in-out;
+}
+
+.projects .container:hover .image {
+  filter: blur(5px);
+}
+
+.projects .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.projects .container:hover .overlay {
+  opacity: 1;
+}
+
+.projects .icon {
+  color: var(--dark);
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container img {
+  border-radius: 50px;
+}
