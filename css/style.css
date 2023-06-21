@@ -240,6 +240,7 @@ textarea {
   width: 50px;
   font-size: 35px;
   color: var(--font);
+  padding-top: 25px;
 }
 
 
