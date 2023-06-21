@@ -75,7 +75,7 @@ h3 {
 /* Skills */
 
 .skills {
-  padding: 20px;
+  padding: 45px;
   font-size: 40px;
   text-align: center;
   background-color: var(--brown);
@@ -240,7 +240,7 @@ textarea {
   width: 50px;
   font-size: 35px;
   color: var(--font);
-  padding-top: 25px;
+  padding-top: 40px;
 }
 
 
