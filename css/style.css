@@ -13,12 +13,17 @@
   --font: #eeeeee;
 }
 
+body {
+  background-color: var(--nav);
+}
+
 /* Header */
 
 .header-custom {
   color: var(--font);
   padding: 35px;
   position: relative;
+  border-bottom: 10px solid var(--magenta);
 }
 
 .header-custom::before {
@@ -59,8 +64,10 @@ h3 {
   background-color: transparent;
 }
 
+
+
 .about-me {
-  font-size: 18px;
+  font-size: 19px;
   text-align: center;
   padding: 10px;
 }
@@ -80,7 +87,7 @@ h3 {
 }
 
 .icons img {
-  width: 80px;
+  width: 75px;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
@@ -157,6 +164,7 @@ form {
 
 .contact {
   background-color: var(--brown);
+  height: 80vh;
 }
 
 .contact h3 {
@@ -210,8 +218,31 @@ textarea {
   transition: all 0.3s;
   margin-top: -4px;
   font-weight: 700;
+  border: 2px solid var(--magenta);
 }
 [type="submit"]:hover {
-  background: var(--dark);
+  background: var(--magenta);
   color: var(--font);
+}
+
+/* Footer */
+.footer {
+  left: 0;
+  bottom: 0;
+  padding: 14px;
+  background-color: var(--dark);
+  color: white;
+  text-align: center;
+  border-top: 10px solid var(--magenta)
+}
+
+.footer i {
+  width: 50px;
+  font-size: 35px;
+  color: var(--font);
+}
+
+
+a:link, a:visited {
+  text-decoration: none;
 }

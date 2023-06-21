@@ -23,7 +23,7 @@
     <!-- Header -->
     <div class="header-custom">
       <h1>Mayra Lepró</h1>
-      <h3>Frontend Developer</h3>
+      <h3 class="frontend">Frontend Developer</h3>
       <p class="about-me">
         Interested in the entire frontend spectrum and working on ambitious
         projects. Professional musician, gamer, and coder.
@@ -123,7 +123,11 @@
 
       <!-- Password Generator -->
       <div class="container">
-        <img src="./img/projects/password.jpg" alt="Password Generator" />
+        <img
+          src="./img/projects/password.jpg"
+          alt="Password Generator"
+          class="image"
+        />
         <div class="overlay">
           <a
             href="https://password-ml.netlify.app/"
@@ -140,7 +144,9 @@
 
     <div class="contact">
       <p class="skills">Contact</p>
-      <p class="contact-message">Got a project or just want to say hi? Feel free to send me a message!</p>
+      <p class="contact-message">
+        Got a project or just want to say hi? Feel free to send me a message!
+      </p>
       <form>
         <input
           name="name"
@@ -155,19 +161,32 @@
           placeholder="Email"
         />
         <input
-        name="subject"
-        type="text"
-        class="feedback-input"
-        placeholder="Subject"
-      />
+          name="subject"
+          type="text"
+          class="feedback-input"
+          placeholder="Subject"
+        />
         <textarea
           name="text"
           class="feedback-input"
-          placeholder="Hi Mayra.."
+          placeholder="A long time ago in a galaxy far, far away..."
         ></textarea>
         <input type="submit" value="SUBMIT" />
       </form>
     </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <a href="https://github.com/mayralepro" target="_blank">
+        <i class="fa fa-github"></i>
+      </a>
+      <a href="https://linkedin.com/in/mayralep">
+        <i class="fa fa-linkedin"></i>
+      </a>
+     
+    </div>
+
+    <!-- Scripts -->
     <script src="./js/main.js"></script>
   </body>
 </html>
